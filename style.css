@@ -1,0 +1,22 @@
+.container{
+    background-color: rgb(133, 100, 167);
+    width: 50vw;
+    height: 40vh;
+}
+.box{
+    background-color: rgb(129, 174, 100);
+    
+    width: 5vw;
+    height: 5vh;
+    transition-property: transform;
+    transition-duration: 3s;
+    transition-timing-function:ease-in-out ;
+    transition-delay:2s ;
+}
+.translate{
+    transform: translateX(10vw)
+    translateY(10vh) skew(5deg) scale(2) rotate(39deg);
+    
+    background-color: rgb(167, 13, 13);
+}
+
